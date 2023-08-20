@@ -4,4 +4,31 @@ body{
 
 h1,h2{
     text-align: center;
+    color: white;
+}
+
+.recipes-buttons, .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #74a1ba;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+p{
+    text-align: center;
 }
